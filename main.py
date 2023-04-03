@@ -1,11 +1,11 @@
-idade=int(input("Digite sua idade:"))
+idade=int(input("digite sua idade:"))
 if idade < 0 :
- print("Impossivel")
+ print("impossivel")
 elif idade < 18:
- print("Não precisa se alistar")
+ print("não precisa se alistar")
 elif 65> idade >18:
- print("Não esqueça de votar na proxima eleição")
+ print("não esqueça de votar na proxima eleição")
 elif idade > 65:
- print("Vá descançar")
+ print("vá descançar")
 else:
- print("Eita!")
+ print("eita!")
